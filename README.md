@@ -69,14 +69,6 @@ Verified the logged-in domain user, hostname, local users, and local Administrat
 - User Account Control awareness
 - Technical documentation
 
-## Commands Used
-
-```powershell
-whoami
-hostname
-net user
-net localgroup administrators
-
 ## What I Learned
 
 This lab helped me understand how IT Support technicians check and manage a Windows endpoint in a domain environment.
@@ -86,3 +78,11 @@ I learned how to confirm system information, check the computer name and domain 
 I also practised using User Account Control, running tools with administrator credentials, and verifying endpoint configuration using PowerShell commands such as `whoami`, `hostname`, `net user`, and `net localgroup administrators`.
 
 This helped me understand the difference between a domain user, a local user, and a local administrator account on a Windows client machine.
+
+## Commands Used
+
+```powershell
+whoami
+hostname
+net user
+net localgroup administrators
