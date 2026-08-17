@@ -112,7 +112,6 @@ Opened the Services console to review Windows services and their startup status.
 - Services console review
 - Standard user vs administrator permissions
 - Technical documentation
-
 ## Commands Used
 
 ```powershell
@@ -120,3 +119,17 @@ whoami
 hostname
 net user
 net localgroup administrators
+```
+
+## What I Learned
+
+This lab helped me understand how IT Support technicians check and manage a Windows endpoint in a domain environment.
+
+I learned how to confirm system information, check the computer name and domain membership, create local user accounts, and manage local administrator permissions.
+
+I also practised using User Account Control, running tools with administrator credentials, and verifying endpoint configuration using PowerShell commands such as `whoami`, `hostname`, `net user`, and `net localgroup administrators`.
+
+Lab 02 helped me practise checking common Windows troubleshooting areas such as Windows Update, Device Manager, Event Viewer, and Services. These tools are useful when investigating endpoint issues, missing drivers, service problems, application errors, and system events.
+
+This helped me understand the difference between a domain user, a local user, and a local administrator account on a Windows client machine.
+
